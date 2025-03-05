@@ -1,0 +1,127 @@
+.search {
+  width: 371px;
+  height: 48px;
+  // border: 1px solid black;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: #f6f6f6;
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 4px 4px 16px;
+}
+
+.search > span {
+  font-size: 14px;
+  font-family: inter;
+  color: #707070;
+}
+
+.search > img {
+  width: 40px;
+  height: 40px;
+  padding-right: 3px;
+}
+
+//   card css start
+
+.container {
+  border: 2px solid #e3e3e3;
+  width: 415px;
+  height: 368px;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.card {
+  height: 363px;
+  width: 383px;
+  // border: 1px solid aqua;
+  margin: 0 auto;
+}
+
+.card > img {
+  width: 383px;
+  height: 183px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.details {
+  width: 383px;
+  height: 127px;
+  // border: 1px solid black;
+}
+.title {
+  display: block;
+  font-size: 20px;
+  font-family: inter;
+  font-weight: 600;
+}
+
+.detail {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+  padding: 10px;
+  display: block;
+}
+
+.footer {
+  width: 383px;
+  height: 40px;
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 101px;
+  height: 26;
+  background-color: #f6f6f6;
+  border-radius: 33px;
+  display: inline-block;
+  color: #6c6c6c;
+  text-align: center;
+  padding-top: 13px;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.edit {
+  width: 92px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit > span {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c6c6c;
+  margin-left: 8px;
+}
+
+.delete {
+  width: 92px;
+  height: 40;
+  background-color: #f6f6f6;
+  border-radius: 33px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete > span {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c6c6c;
+  margin-left: 3px;
+}

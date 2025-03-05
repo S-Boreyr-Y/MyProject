@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: 'inter';
+    src: local('inter'), url(../fonts/Inter.ttf) format('opentype');
+  }
+
+.header {
+  width: 478px;
+  height: 56px;
+  // border: 1px solid black;
+  border-radius: 40px;
+  padding: 8px 12px;
+  background-color: #f6f6f6;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header > img {
+  width: 24px;
+  height: 24px;
+}
+
+.header > span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header > div {
+  width: 233px;
+  height: 40px;
+  margin-left: 100px;
+  display: flex;
+//   border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.header > div > span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inter;
+}
+
+.addproduct {
+  width: 194px;
+  height: 40px;
+//   border: 1px solid black;
+  border-radius: 37px;
+  background-color: #ff5a5a;
+  gap: 6px;
+  padding: 8px 12px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addproduct > span {
+  font-size: 16px;
+  font-family: inter;
+  font-weight: 400;
+}
+
+.addproduct > img {
+  width: 24px;
+  height: 24px;
+}
+
+
+// search css start
+
+.search{
+  width: 371px;
+  height: 48px;
+  border: 1px solid black;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: #F6F6F6;
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 4px 4px 16px;
+
+}
+
+.search>span{
+  font-size: 14px;
+  font-family: inter;
+  color: #707070;
+
+}
+
+.search>img{
+  width:40px;
+  height: 40px;
+}

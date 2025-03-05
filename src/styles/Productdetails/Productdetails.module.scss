@@ -1,0 +1,40 @@
+.container{
+    width: 874pt;
+    height: 786px;
+    border: 1px solid blak;
+}
+
+.container>img{
+    width: 874px;
+    height: 418px;
+}
+span:nth-child(2){
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+}
+
+span:nth-child(3){
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    color: #707070;
+    padding-bottom: 130px;
+}
+
+span:nth-child(4){
+    width: 190px;
+    height: 30px;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    color: #6C6C6C;
+    background-color: #F6F6F6;
+    border-radius: 33px;
+    text-align: center;
+    padding-top: 15px;
+}

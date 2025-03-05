@@ -1,0 +1,14 @@
+.header {
+  width: fixed(1325px);
+
+  // border: 1px solid black;
+}
+.main {
+    margin-top: 5px;
+  width: fixed(1325px);
+  height: 848px;
+//   border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3,435px);
+  gap: 8px;
+}
