@@ -1,10 +1,10 @@
 import React from "react";
-import style from "../styles/Productdetails/Productdetails.module.scss"
-import img from "../components/common/images/image.png"
+import styledetail from "../styles/Productdetails/Productdetails.module.scss";
+import img from "../components/common/images/image.png";
 function Productdetails() {
   return (
     <div>
-      <div className={style.container}>
+      <div className={styledetail.container}>
         <img src={img} alt="" />
         <span>Product Title 3</span>
         <span>

@@ -1,28 +1,12 @@
-import React from "react";
-import Productheader from "./components/common/Productheader/Productheader";
-import app from "./styles/app/app.module.scss";
-import Productlist from "./pages/Productlist";
-import Searchcomp from "./components/productlist/search/Searchcomp"
+import React from 'react'
+import Newproduct from './pages/Newproduct'
 
 function App() {
   return (
-    <div classname="container">
-      <header className={app.header}>
-        <Productheader />
-      </header>
-      <div>
-        <Searchcomp />
-      </div>
-      <main className={app.main}>
-        <Productlist/>
-        <Productlist/>
-        <Productlist/>
-        <Productlist/>
-        <Productlist/>
-        <Productlist/>
-      </main>
+    <div>
+        <Newproduct />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
