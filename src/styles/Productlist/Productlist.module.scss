@@ -32,6 +32,7 @@
   height: 368px;
   border-radius: 16px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .card {
@@ -124,4 +125,12 @@
   font-weight: 500;
   color: #6c6c6c;
   margin-left: 3px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 435px);
+  gap: 8px;
+  width: fixed(1325px);
+  height: 848px;
 }
