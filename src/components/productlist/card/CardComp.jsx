@@ -55,11 +55,13 @@ import del from "./image/delete.svg";
 import img from "./image/image.png";
 import { Link } from "react-router-dom";
 
+
 function CardComp(props) {
 
   return (
 
     <div className={stylecard.container}>
+
         <Link key={props.id} to={`products/${props.id}`} style={{ textDecoration: "none" }}>
           <div className={stylecard.card}>
             <img src={img} alt="" />

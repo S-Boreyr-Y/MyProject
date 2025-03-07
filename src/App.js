@@ -6,9 +6,9 @@ import app from "./styles/app/app.module.scss";
 import { Link, Route, Router, Routes } from "react-router-dom";
 import Newproduct from "./pages/Newproduct";
 import Getaxios from "./components/common/axios/Getaxios";
+import Productdetails from "./pages/Productdetails";
 
 function App() {
-
   return (
     <div classname="container">
       <header className={app.header}>
@@ -20,7 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Productlist />}></Route>
             <Route path="products" element={<Productlist />}></Route>
-            <Route path="products/:id" element={<h1>hello</h1>}></Route>
+            <Route path="products/:id" element={<Productdetails />}></Route>
             <Route path="/addproduct" element={<Newproduct />}></Route>
           </Routes>
         </div>

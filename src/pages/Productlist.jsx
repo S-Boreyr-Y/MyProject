@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import stylelist from "../styles/Productlist/Productlist.module.scss";
 import Searchcomp from "../components/productlist/search/Searchcomp";
 import axios from "axios";
+import Productdetails from "./Productdetails";
 function Productlist() {
   const [data, setData] = useState([]);
 
@@ -29,12 +30,15 @@ function Productlist() {
       <div className={stylelist.main}>
         {data.map((item) => {
           return (
-            <Cardcomp
-              key={item.id}
-              title={item.title}
-              detail={item.details}
-              date={item.date}
-            />
+           <>           
+           <Cardcomp
+             key={item.id}
+             id={item.id}
+             title={item.title}
+             detail={item.details}
+             date={item.date}
+           />
+           </>
           );
         })}
       </div>
