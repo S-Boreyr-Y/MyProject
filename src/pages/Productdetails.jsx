@@ -4,7 +4,7 @@ import img from "../components/common/images/image.png";
 function Productdetails() {
   return (
     <div>
-      <div className={styledetail.container}>
+      <div className={styledetail.containerdetails}>
         <img src={img} alt="" />
         <span>Product Title 3</span>
         <span>
