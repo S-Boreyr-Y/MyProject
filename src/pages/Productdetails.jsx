@@ -21,9 +21,9 @@ function Productdetails(props) {
     <div>
       <div className={styledetail.containerdetails}>
         <img src={img} alt="" />
-        <span>{data.title}</span>
-        <span>{data.details}</span>
-        <span>{data.date}</span>
+        <span className={styledetail.title}>{data.title}</span>
+        <span className={styledetail.detail}>{data.details}</span>
+        <span className={styledetail.date}>{data.date}</span>
       </div>
     </div>
   );

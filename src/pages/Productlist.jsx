@@ -24,7 +24,7 @@ function Productlist() {
 
   return (
     <div>
-      <div>
+      <div className={stylelist.searchbox}>
         <Searchcomp />
       </div>
       <div className={stylelist.main}>

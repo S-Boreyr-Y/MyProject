@@ -1,6 +1,6 @@
 .search {
   width: 371px;
-  height: 48px;
+  // height: 48px;
   // border: 1px solid black;
   margin: 0px auto;
   margin-top: 30px;
@@ -10,6 +10,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 4px 4px 4px 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .search > span {
@@ -29,10 +31,11 @@
 .container {
   border: 2px solid #e3e3e3;
   width: 415px;
-  height: 368px;
+  // height: 368px;
   border-radius: 16px;
   padding: 8px;
   cursor: pointer;
+  // margin: 0 auto;
 }
 
 .card {
@@ -129,8 +132,15 @@
 
 .main {
   display: grid;
-  grid-template-columns: repeat(3, 435px);
+  grid-template-columns: repeat(3, 442px);
   gap: 8px;
-  width: fixed(1325px);
+  width: 1325px;
   height: 848px;
+  // border: 1px solid black;
+}
+
+
+.searchbox{
+  // margin-top: 30px;
+  // margin-bottom: 30px;
 }
